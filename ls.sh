@@ -30,3 +30,8 @@ ls /var/log
 echo
 echo "ls -R: shows files in the current dir and every file inside the subdir"
 ls -R
+
+echo
+echo "ls -l |grep ^_: grep only files"
+ls -l | grep ^_
+
